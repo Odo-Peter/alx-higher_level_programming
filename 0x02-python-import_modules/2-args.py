@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if __name__ == "__main_":
+if __name__ == "__main__":
     from sys import argv
 
     i = len(argv) - 1
@@ -14,7 +14,7 @@ if __name__ == "__main_":
 
     if i >= 1:
         i = 0
-        for args in agrv:
+        for args in argv:
             if i != 0:
-                print("{}: {}.".format(i, arg))
+                print("{}: {}.".format(i, args))
             i += 1
