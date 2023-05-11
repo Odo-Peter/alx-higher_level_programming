@@ -3,9 +3,18 @@
 if __name__ == "__main_":
     from sys import argv
 
-    if len(argv) == 1:
-        print("0 arguments.")
-    elif len(argv) > 1:
-        for i, args in enumerate(argv):
-            if(i != 0):
-                print(f"{i}: {argv[i]}")
+    i = len(argv) - 1
+
+    if i == 0:
+        print("{} arguments.".format(i))
+    elif i == 1:
+        print("{} arguments.".format(i))
+    else:
+        print("{} arguments.".format(i))
+
+    if i >= 1:
+        i = 0
+        for args in agrv:
+            if i != 0:
+                print("{}: {}.".format(i, arg))
+            i += 1
