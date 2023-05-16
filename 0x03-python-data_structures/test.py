@@ -1,11 +1,10 @@
 #!/usr/bin/python3
+replace_in_list = __import__('2-replace_in_list').replace_in_list
 
-if __name__ == "__main__":
-    from calculator_1 import add, sub, mul, div
+my_list = [1, 2, 3, 4, 5]
+idx = 3
+new_element = 9
+new_list = replace_in_list(my_list, idx, new_element)
 
-    a = 10
-    b = 5
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
-    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
+print(new_list)
+print(my_list)
