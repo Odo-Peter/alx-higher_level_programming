@@ -16,7 +16,7 @@ void reverse_list(listint_t **head_rev)
 
 	while (curr != NULL)
 	{
-		next = ucrr->next;
+		next = curr->next;
 		curr->next = prev;
 		prev = curr;
 		curr = next;
