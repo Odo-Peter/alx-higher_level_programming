@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    if my_list is None:
-        return
+    if len(my_list) == 0 or my_list is None:
+        return None
     elif search > len(my_list):
         return
     else:
