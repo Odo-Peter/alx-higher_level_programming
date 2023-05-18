@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+def uniq_add(my_list=[]):
+    if my_list is None:
+        return ()
+    else:
+        new_list = []
+        sum_list = []
+        last_list = []
+        for i, idx in my_list:
+            if my_list.count(i) == 1:
+                new_list.append(i)
+            elif my_list.count(i) > 1:
+                sum_list.append(my_list[idx])
+        sum_of_val = 0
+        print(new_list, sum_list.sort())
+        for x in new_list:
+            sum_of_val += x
+        return (sum_of_val)
