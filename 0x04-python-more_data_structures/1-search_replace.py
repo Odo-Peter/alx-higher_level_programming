@@ -3,7 +3,7 @@ def search_replace(my_list, search, replace):
     if len(my_list) == 0 or my_list is None:
         return None
     elif search > len(my_list):
-        return
+        return None
     else:
         new_list = my_list.copy()
         idx = my_list.index(search)
