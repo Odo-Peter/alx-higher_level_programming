@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+def best_score(a_dictionary):
+    new_dict = {}
+    tmp = 0
+    for name, score in a_dictionary.items():
+        if score > tmp:
+            tmp = score
+        if tmp == score:
+            new_dict.update(name=tmp)
+    return new_dict
