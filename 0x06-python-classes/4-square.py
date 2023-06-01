@@ -5,8 +5,9 @@ Define class Square
 """
 
 
+
 class Square:
-    """ Defines a class Square object.
+    """ Defines a Class Square object.
     Private instance attribute: size.
     """
 
@@ -20,23 +21,24 @@ class Square:
         else:
             self.__size = size
 
+
     def area(self):
         """ Method that returns the area
-        of a the object square
+        of the object square
         """
         return (self.__size ** 2)
 
     @property
     def size(self):
         """ Method that returns the current area
-        of a the object square
+        of the object square
         """
         return self.__size
 
     @size.setter
     def size(self, value):
-        """ Method that returns the area
-        of a the object square
+        """ Method to set the size
+        value of the object square
         """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
