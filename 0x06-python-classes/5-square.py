@@ -46,13 +46,13 @@ class Square:
             self.__size = value
 
     def my_print(self):
-         """ Method to print '#'
+        """ Method to print '#'
         of the object square to the stdout
         """
-         if self.__size == 0:
-             print()
-         else:
-             for i in range(0, self.__size):
+        if self.__size == 0:
+            print()
+        else:
+            for i in range(0, self.__size):
                 for j in range(0, self.__size):
-                     print('#', end="")
+                    print('#', end="")
                 print()
