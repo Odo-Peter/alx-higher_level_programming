@@ -5,7 +5,6 @@ Define class Square
 """
 
 
-
 class Square:
     """ Defines a Class Square object.
     Private instance attribute: size.
@@ -20,7 +19,6 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = size
-
 
     def area(self):
         """ Method that returns the area
