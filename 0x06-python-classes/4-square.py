@@ -31,10 +31,10 @@ class Square:
         """ Method that returns the current area
         of a the object square
         """
-         return self.__size
+        return self.__size
 
-     @size.setter
-     def size(self, value):
+    @size.setter
+    def size(self, value):
         """ Method that returns the area
         of a the object square
         """
