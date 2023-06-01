@@ -7,7 +7,7 @@ Define class Square
 
 class Square:
     """ Defines a class Square object.
-    Private instance attr: size.
+    Private instance attribute: size.
     """
 
     def __init__(self, size=0):
