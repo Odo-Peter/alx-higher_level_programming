@@ -63,3 +63,18 @@ is equivalent to using the ``+`` operator.
         Traceback (most recent call last):
 		  ...
 	TypeError: b must be an integer
+
+	>>> add_integer("n", 3)
+        Traceback (most recent call last):
+		  ...
+	TypeError: a must be an integer
+
+	>>> add_integer(4, '2')
+        Traceback (most recent call last):
+        	  ...
+	TypeError: b must be an integer
+
+	>>> add_integer(float('inf'), float('-inf'))
+	Traceback (most recent call last):
+		  ...
+	OverflowError: cannot convert float infinity to integer
