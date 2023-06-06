@@ -101,7 +101,7 @@ class Rectangle:
         for i in range(self.height):
             rectangle += ("#" * self.width) + "\n"
 
-            return rectangle[:-1]
+        return rectangle[:-1]
 
     def __repr__(self):
         """ Method that returns the string represantion of the instance
