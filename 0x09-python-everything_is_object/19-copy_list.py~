@@ -1,0 +1,10 @@
+def copy_list(l):
+    new_list = l[:]
+    return new_list
+
+_list = copy_list([1,2,3])
+print([1,2,3])
+print(_list)
+
+print(_list == [1,2,3])
+print(_list is [1,2,3])
