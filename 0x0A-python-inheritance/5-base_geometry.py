@@ -8,4 +8,4 @@ Function that returns True/False if obj is a type of a_class
 class BaseGeometry:
     """Empty class."""
 
-        pass
+    pass
