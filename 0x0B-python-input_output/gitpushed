@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m 'Odo Peter Ebere - python-input_output'
+git push
