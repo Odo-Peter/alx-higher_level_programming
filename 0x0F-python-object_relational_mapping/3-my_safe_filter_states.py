@@ -14,7 +14,6 @@ if __name__ == '__main__':
                          port=3306,
                          host='localhost')
 
-
     cursor = db.cursor()
     cursor.execute('SELECT * from states WHERE name = %s ORDER BY states.id',
                    (sys.argv[4], ))

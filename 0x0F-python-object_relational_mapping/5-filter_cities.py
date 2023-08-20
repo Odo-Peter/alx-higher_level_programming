@@ -23,7 +23,6 @@ if __name__ == '__main__':
 
     cities = cursor.fetchall()
 
-
     indx = 0
     for city in cities:
         if indx != 0:
