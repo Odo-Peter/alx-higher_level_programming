@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Python network - $1 $2"
+git push
